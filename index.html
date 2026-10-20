@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Honey Bee Beauty Hive (Spa & Facials) | Premier Facial Spa in Warri, Delta State</title>
+  <meta name="description" content="Honey Bee Beauty Hive - Warri's luxury facial spa and esthetics studio at 116 Effurun Sapele Road. Signature Honey Glow facials, deep pore extractions, teeth whitening, men's skin therapy, and curated skincare." />
+  <meta name="keywords" content="facial spa Warri, best facial Effurun, skincare spa Warri Delta State, teeth whitening Warri, Honey Bee Beauty Hive, Effurun Sapele road spa" />
+
+  <!-- Google Fonts: Cormorant Garamond & DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta name="theme-color" content="#4A3B32">
+</head>
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div id="loading-bar"></div>
+
+  <!-- Sticky Luxury Header -->
+  <header class="site-header">
+    <div class="container nav-row">
+      <a href="index.html" class="logo-lockup" aria-label="Honey Bee Beauty Hive Home">
+        <div class="logo-icon" aria-hidden="true">
+          <!-- Honeycomb / Bee Minimalist SVG Icon -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2l7 4v8l-7 4-7-4V6z"/>
+            <circle cx="12" cy="10" r="2.5" fill="currentColor"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="l1">Honey Bee</span>
+          <span class="l2">Beauty Hive &bull; Spa &amp; Facials</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services &amp; Menu</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header CTAs -->
+      <div class="header-actions">
+        <a href="https://wa.me/2348133134415?text=Hello%20Honey%20Bee%20Beauty%20Hive,%20I%20would%20like%20to%20book%20an%20appointment%20for%20a%20facial/spa%20treatment." 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="btn btn-honey btn-sm btn-header-cta">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.243 8.477 3.513 2.266 2.27 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.638 1.966 14.122.94 11.5.942 6.066.942 1.642 5.312 1.637 10.742c-.002 1.772.464 3.506 1.352 5.04l-.841 3.076 3.199-.824z"/>
+          </svg>
+          Book on WhatsApp
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="menu-toggle" class="menu-toggle" aria-label="Open Navigation Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Panel -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <div class="overlay"></div>
+    <div class="panel">
+      <div class="panel-top">
+        <div class="logo-text">
+          <span class="l1" style="font-size:20px;">Honey Bee</span>
+          <span class="l2" style="font-size:9px;">Beauty Hive &bull; Spa</span>
+        </div>
+        <button id="drawer-close" class="drawer-close" aria-label="Close Navigation Menu">&times;</button>
+      </div>
+
+      <ul>
+        <li><a class="nav-link active" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="about.html">About Us</a></li>
+        <li><a class="nav-link" href="services.html">Services &amp; Menu</a></li>
+        <li><a class="nav-link" href="products.html">Products</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="drawer-actions">
+        <a href="https://wa.me/2348133134415?text=Hello%20Honey%20Bee%20Beauty%20Hive,%20I%20would%20like%20to%20book%20an%20appointment%20for%20a%20facial/spa%20treatment." 
+           target="_blank" 
+           class="btn btn-whatsapp" 
+           style="width:100%;">
+          Book via WhatsApp (08133134415)
+        </a>
+        <a href="tel:+2348058987605" class="btn btn-outline" style="width:100%;">
+          Call: 08058987605
+        </a>
+      </div>
+
+      <div class="loc-card">
+        <strong>Our Sanctuary:</strong>
+        116 Effurun Sapele Road, Effurun (by GIG Motors, opposite Our Lady's School), Warri, Delta State.
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <div class="hero-eyebrow-badge">
+          <span class="dot"></span>
+          Warri, Delta State &bull; 116 Effurun Sapele Road
+        </div>
+        <h1>Where radiant skin meets <em>gentle nourishment.</em></h1>
+        <p class="sub">
+          Welcome to <strong>Honey Bee Beauty Hive</strong> — Effurun and Warri's peaceful sanctuary for restorative facial rituals, laser smile aesthetics, and deep skin therapy. Reclaim your skin's youthful glow in an atmosphere of pure warmth.
+        </p>
+
+        <!-- Prominent Dual CTAs -->
+        <div class="hero-ctas">
+          <a href="https://wa.me/2348133134415?text=Hello%20Honey%20Bee%20Beauty%20Hive,%20I%20would%20like%20to%20book%20an%20appointment%20for%20a%20facial/spa%20treatment." 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             class="btn btn-honey">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.243 8.477 3.513 2.266 2.27 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.638 1.966 14.122.94 11.5.942 6.066.942 1.642 5.312 1.637 10.742c-.002 1.772.464 3.506 1.352 5.04l-.841 3.076 3.199-.824z"/>
+            </svg>
+            Book via WhatsApp
+          </a>
+          <a href="tel:+2348058987605" class="btn btn-outline">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            Call Us Now
+          </a>
+        </div>
+
+        <!-- Trust Badges -->
+        <div class="hero-trust-indicators">
+          <div class="trust-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <span>5-Star Rated Spa</span>
+          </div>
+          <div class="trust-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+            <span>UV Sterilized Clinical Hygiene</span>
+          </div>
+          <div class="trust-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg>
+            <span>Warri &amp; Effurun</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Media -->
+      <div class="hero-img-wrap">
+        <div class="hero-img-inner">
+          <img src="assets/images/hero-founder.png" 
+               alt="Founder & Lead Esthetician at Honey Bee Beauty Hive studio in Warri" 
+               loading="eager" />
+        </div>
+        <!-- Floating Badges -->
+        <div class="badge-float bottom-left">
+          <div class="icon-badge">✨</div>
+          <div class="text-badge">
+            <strong>1,200+ Glowing Clients</strong>
+            <span>Warri &bull; Effurun &bull; Delta</span>
+          </div>
+        </div>
+        <div class="badge-float top-right">
+          <div class="icon-badge">🌿</div>
+          <div class="text-badge">
+            <strong>100% Organic Nourishment</strong>
+            <span>Gentle &amp; Non-Invasive</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Infinite Luxury Marquee / Ticker Band -->
+  <div class="ticker-band" aria-label="Brand Highlights">
+    <div class="ticker-track">
+      <div class="ticker-content">
+        <span class="item">Hydrating Honey Glow Facials</span><span class="dot">&bull;</span>
+        <span class="item">Deep Pore Cleansing &amp; Steam Therapy</span><span class="dot">&bull;</span>
+        <span class="item">Gentlemen's Executive Skin Care</span><span class="dot">&bull;</span>
+        <span class="item">Laser Teeth Whitening &amp; Smile Care</span><span class="dot">&bull;</span>
+        <span class="item">Fashion Braces &amp; Tooth Accents</span><span class="dot">&bull;</span>
+        <span class="item">116 Effurun Sapele Road (by GIG Motors)</span><span class="dot">&bull;</span>
+        <span class="item">Book Direct on WhatsApp: 08133134415</span><span class="dot">&bull;</span>
+      </div>
+      <div class="ticker-content" aria-hidden="true">
+        <span class="item">Hydrating Honey Glow Facials</span><span class="dot">&bull;</span>
+        <span class="item">Deep Pore Cleansing &amp; Steam Therapy</span><span class="dot">&bull;</span>
+        <span class="item">Gentlemen's Executive Skin Care</span><span class="dot">&bull;</span>
+        <span class="item">Laser Teeth Whitening &amp; Smile Care</span><span class="dot">&bull;</span>
+        <span class="item">Fashion Braces &amp; Tooth Accents</span><span class="dot">&bull;</span>
+        <span class="item">116 Effurun Sapele Road (by GIG Motors)</span><span class="dot">&bull;</span>
+        <span class="item">Book Direct on WhatsApp: 08133134415</span><span class="dot">&bull;</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats Counter Band -->
+  <div class="stats-band">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <div class="stat-num">1,200<span class="accent">+</span></div>
+        <div class="stat-label">Happy Clients</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">100<span class="accent">%</span></div>
+        <div class="stat-label">UV Sterilized Care</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">Warri</div>
+        <div class="stat-label">Effurun Sapele Rd</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">5.0<span class="accent">★</span></div>
+        <div class="stat-label">Client Rating</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Services Preview & Live Search Section -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Signature Rituals</span>
+        <h2>Curated Treatments for <em>Visible Radiance</em></h2>
+        <p>Every service at Honey Bee Beauty Hive is tailored to your unique skin type. Search our treatment menu below or explore our signature sessions.</p>
+      </div>
+
+      <!-- Annie Aesthetics Benchmark Feature: Live Search Filter -->
+      <div class="search-filter-wrap">
+        <div class="search-input-box">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+          <input type="search" 
+                 id="treatment-search" 
+                 placeholder="Search facial, steam, teeth whitening, men, braces..." 
+                 autocomplete="off" 
+                 aria-label="Search spa treatments" />
+        </div>
+      </div>
+
+      <!-- Treatment Category Tabs -->
+      <div class="filter-tabs">
+        <button class="tab-btn active" data-category="all">All Treatments</button>
+        <button class="tab-btn" data-category="facials">Facial Rituals</button>
+        <button class="tab-btn" data-category="smile">Smile &amp; Teeth Care</button>
+        <button class="tab-btn" data-category="men">Men's Care</button>
+      </div>
+
+      <p id="no-search-results" style="display:none; text-align:center; color:var(--text-muted); padding:30px 0; font-size:15px;">
+        No treatments found matching your search. Please reach out to us on WhatsApp (08133134415) for bespoke requests!
+      </p>
+
+      <!-- Services Cards Grid -->
+      <div class="cards-grid cards-grid-4" id="services-grid">
+
+        <!-- Card 1: Hydrating Honey Glow Facial -->
+        <article class="svc-card" data-category="facials" data-keywords="facial steam glow hydration honey extraction pore cleansing relax">
+          <div class="svc-card-img-wrap">
+            <img src="assets/images/facial-steam.png" 
+                 alt="Client receiving relaxing steam facial at Honey Bee Beauty Hive" 
+                 loading="lazy" />
+            <span class="svc-badge-duration">60 Mins</span>
+          </div>
+          <div class="svc-card-body">
+            <h3>Hydrating Honey Glow Facial</h3>
+            <p>
+              Just steam away the stress! Deep double-cleansing, warm botanical steaming, gentle extraction, and pure honey nutrient infusion that leaves your complexion dewy, supple, and noticeably bright.
+            </p>
+            <div class="svc-card-footer">
+              <span class="svc-inquiry-tag">Inquire for Pricing</span>
+              <a href="https://wa.me/2348133134415?text=Hello%20Honey%20Bee%20Beauty%20Hive,%20I%20would%20like%20to%20inquire%20about%20pricing%20and%20book%20the%20Hydrating%20Honey%20Glow%20Facial." 
+                 target="_blank" 
+                 class="svc-card-btn">
+                Inquire &amp; Book &rarr;
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2: Gentlemen's Executive Facial -->
+        <article class="svc-card" data-category="men" data-keywords="men skin facial beard steam ingrown hairs deep pore cleansing male">
+          <div class="svc-card-img-wrap">
+            <img src="assets/images/mens-facial.png" 
+                 alt="Men's facial treatment with steam and eye protection at Honey Bee Beauty Hive" 
+                 loading="lazy" />
+            <span class="svc-badge-duration">60 Mins</span>
+          </div>
+          <div class="svc-card-body">
+            <h3>Men's Executive Skin &amp; Beard Care</h3>
+            <p>
+              Because men deserve good skin too! Tailored specifically for male skin texture and beard hygiene. Targets ingrown hairs, clears clogged pores, relieves razor bumps, and re-energizes tired skin under soothing steam.
+            </p>
+            <div class="svc-card-footer">
+              <span class="svc-inquiry-tag">Inquire for Pricing</span>
+              <a href="https://wa.me/2348133134415?text=Hello%20Honey%20Bee%20Beauty%20Hive,%20I%20would%20like%20to%20inquire%20about%20pricing%20and%20book%20the%20Men%27s%20Executive%20Skin%20%26%20Beard%20Care%20treatment." 
+                 target="_blank" 
+                 class="svc-card-btn">
+                Inquire &amp; Book &rarr;
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3: Laser Teeth Whitening -->
+        <article class="svc-card" data-category="smile" data-keywords="teeth whitening smile laser self care bright stain removal">
+          <div class="svc-card-img-wrap">
+            <img src="assets/images/teeth-whitening.png" 
+                 alt="Laser teeth whitening procedure at Honey Bee Beauty Hive Warri" 
+                 loading="lazy" />
+            <span class="svc-badge-duration">45 Mins</span>
+          </div>
+          <div class="svc-card-body">
+            <h3>Laser Teeth Whitening</h3>
+            <p>
+              Self-care starts with your smile. Non-invasive, enamel-safe laser whitening that lifts stubborn stains from coffee, tea, and everyday life. Walk out with teeth up to 4–8 shades brighter in just one relaxing session.
+            </p>
+            <div class="svc-card-footer">
+              <span class="svc-inquiry-tag">Inquire for Pricing</span>
+              <a href="https://wa.me/2348133134415?text=Hello%20Honey%20Bee%20Beauty%20Hive,%20I%20would%20like%20to%20inquire%20about%20pricing%20and%20book%20a%20Laser%20Teeth%20Whitening%20session." 
+                 target="_blank" 
+                 class="svc-card-btn">
+                Inquire &amp; Book &rarr;
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 4: Fashion Braces & Smile Beautification -->
+        <article class="svc-card" data-category="smile" data-keywords="fashion braces smile beauty aesthetic tooth accents warri">
+          <div class="svc-card-img-wrap">
+            <img src="assets/images/fashion-braces.png" 
+                 alt="Client smiling with fashion braces installation at Honey Bee Beauty Hive" 
+                 loading="lazy" />
+            <span class="svc-badge-duration">60 Mins</span>
+          </div>
+          <div class="svc-card-body">
+            <h3>Fashion Braces Installation</h3>
+            <p>
+              Give your smile a trendy, fashion-forward sparkle. Professionally placed fashion braces using hygienic, safe dental bonding materials. Available in top and bottom sets with custom color combinations.
+            </p>
+            <div class="svc-card-footer">
+              <span class="svc-inquiry-tag">Inquire for Pricing</span>
+              <a href="https://wa.me/2348133134415?text=Hello%20Honey%20Bee%20Beauty%20Hive,%20I%20would%20like%20to%20inquire%20about%20pricing%20and%20book%20a%20Fashion%20Braces%20session." 
+                 target="_blank" 
+                 class="svc-card-btn">
+                Inquire &amp; Book &rarr;
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Home Service Available Banner -->
+      <div class="home-service-banner">
+        <div class="home-service-content">
+          <h4>Home Service Available Across Warri &amp; Effurun</h4>
+          <p>
+            Prefer to experience our luxurious facial and spa pampering in the comfort of your own home? Home service sessions are available across Warri, Effurun, and environs — pricing and scheduling are seamlessly confirmed on WhatsApp.
+          </p>
+        </div>
+        <a href="https://wa.me/2348133134415?text=Hello%20Honey%20Bee%20Beauty%20Hive,%20I%20would%20like%20to%20inquire%20about%20Home%20Service%20availability%20and%20rates." 
+           target="_blank" 
+           class="btn btn-primary" 
+           style="flex-shrink:0;">
+          Request Home Service
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Why Choose Us / Sanctuary Pillars -->
+  <section class="section section-tight" style="background-color: var(--bg-surface);">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">The Hive Standard</span>
+        <h2>Why Clients Trust <em>Honey Bee Beauty Hive</em></h2>
+        <p>We believe skincare is medical self-care, not guesswork. Here is our unwavering promise to you.</p>
+      </div>
+
+      <div class="why-us-grid">
+        <div class="pillar-card">
+          <div class="pillar-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3>Hospital-Grade UV Sterilization</h3>
+          <p>We utilize certified electronic UV sterilizers for every probe, extractor, and implement. Your safety and zero-cross-contamination are non-negotiable.</p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.5h-2v-2h2zm0-4.5h-2V7h2z"/>
+            </svg>
+          </div>
+          <h3>Gentle, Non-Invasive Approach</h3>
+          <p>No harsh stripping or abrasive peel trauma. We nurture your skin moisture barrier with gentle steaming, bioactive honey extracts, and soothing botanicals.</p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3>Personalized Skin Consultation</h3>
+          <p>No two skin barriers are alike. Each treatment begins with a thorough skin examination to select custom active serums tailored to your exact complexion needs.</p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <h3>Accessible Prime Warri Location</h3>
+          <p>Conveniently located at 116 Effurun Sapele Road (by GIG Motors, opposite Our Lady's School) with serene parking, quiet ambiance, and total privacy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section: Founder & Studio Origin -->
+  <section class="section" id="about">
+    <div class="container about-grid">
+      <div class="about-img-frame">
+        <img src="assets/images/hero-founder.png" 
+             alt="Lead Esthetician standing inside Honey Bee Beauty Hive studio" 
+             loading="lazy" />
+        <div class="about-badge">
+          <strong>Certified</strong>
+          <span>Esthetics &amp; Skin Care</span>
+        </div>
+      </div>
+
+      <div class="about-content">
+        <span class="eyebrow eyebrow-no-line">Our Story &bull; Honey Bee Beauty Hive</span>
+        <h2>A Sanctuary Dedicated to <em>Healthy, Confident Skin.</em></h2>
+        <p class="lead">
+          "True beauty isn't about covering up imperfections — it is about awakening your skin's natural glow so you feel radiantly confident without makeup."
+        </p>
+        <p>
+          Founded in Effurun, Warri, Delta State, <strong>Honey Bee Beauty Hive (Spa &amp; Facials)</strong> was created out of a deep passion for clinical skincare results blended with the comforting warmth of a luxury retreat. 
+        </p>
+        <p>
+          Recognizing the impact of Delta's tropical weather, humidity, and pollution on skin pores, our studio specialized in deep restorative steaming, pore decongestion, and gentle nourishing treatments using pure honey botanicals.
+        </p>
+
+        <div class="about-checklist">
+          <div class="checklist-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            <span>Certified Skin &amp; Facial Estheticians</span>
+          </div>
+          <div class="checklist-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            <span>Safe &amp; Non-Toxic Formulations</span>
+          </div>
+          <div class="checklist-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            <span>Inclusive Care: Women &amp; Men</span>
+          </div>
+          <div class="checklist-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+            <span>Dedicated WhatsApp Support</span>
+          </div>
+        </div>
+
+        <div style="display:flex; gap:16px; flex-wrap:wrap;">
+          <a href="about.html" class="btn btn-primary">Read Our Full Story</a>
+          <a href="https://wa.me/2348133134415?text=Hello%20Honey%20Bee%20Beauty%20Hive,%20I%20would%20like%20to%20schedule%20a%20skin%20consultation." 
+             target="_blank" 
+             class="btn btn-outline">
+            Chat with Our Esthetician
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client Testimonials Carousel -->
+  <section class="section testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Glowing Reviews</span>
+        <h2>Loved by Clients in <em>Warri &amp; Beyond</em></h2>
+        <p>Real stories and verified skin transformations from our cherished clients at Honey Bee Beauty Hive.</p>
+      </div>
+
+      <div class="review-carousel">
+        <div class="review-track" id="review-track">
+
+          <!-- Review 1 -->
+          <div class="review-slide">
+            <div class="review-card">
+              <div class="review-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <blockquote>
+                "I had the Hydrating Honey Glow Facial before my birthday photoshoot, and the compliments haven't stopped! My skin was literally glowing without highlighter. The facial steam and massage was so peaceful I fell asleep."
+              </blockquote>
+              <div class="review-meta">
+                <strong>Blessing O.</strong>
+                <span>Effurun, Warri &bull; Treatment: Hydrating Honey Glow</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="review-slide">
+            <div class="review-card">
+              <div class="review-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <blockquote>
+                "As a guy, finding a spa where you feel comfortable and properly attended to isn't easy in Warri. Honey Bee exceeded expectations. The steam facial cleared up my razor bumps and beard area completely. 10/10 service!"
+              </blockquote>
+              <div class="review-meta">
+                <strong>Emeka K.</strong>
+                <span>Airport Road, Warri &bull; Treatment: Men's Executive Skin Care</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="review-slide">
+            <div class="review-card">
+              <div class="review-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <blockquote>
+                "Got my laser teeth whitening done here. Zero sensitivity, clean equipment, and they took before & after pictures that blew my mind. My smile is so much whiter now. Highly recommend!"
+              </blockquote>
+              <div class="review-meta">
+                <strong>Tega M.</strong>
+                <span>Enerhen, Warri &bull; Treatment: Laser Teeth Whitening</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Carousel Navigation Controls -->
+        <div class="carousel-controls">
+          <button class="carousel-btn" id="review-prev" aria-label="Previous Testimonial">&larr;</button>
+          <div class="carousel-dots" id="review-dots"></div>
+          <button class="carousel-btn" id="review-next" aria-label="Next Testimonial">&rarr;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Skincare Products Showcase -->
+  <section class="section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">At-Home Glow</span>
+        <h2>Curated Skincare <em>Essentials</em></h2>
+        <p>Maintain your post-spa radiance with our in-house line of honey-infused botanical cleansers, oils, and glow serums.</p>
+      </div>
+
+      <div class="product-grid">
+
+        <!-- Product 1 -->
+        <div class="product-card">
+          <span class="product-tag">Bestseller</span>
+          <div class="product-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="28" height="28">
+              <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+            </svg>
+          </div>
+          <h3>Golden Honey &amp; Oat Cleanser</h3>
+          <p>
+            Gentle sulfate-free foaming cleanser infused with pure raw honey and colloidal oatmeal. Purifies pores without stripping vital moisture.
+          </p>
+          <div class="product-specs">
+            <span><strong>Skin Type:</strong> All types &bull; Sensitive safe</span>
+            <span><strong>Size:</strong> 150ml pump bottle</span>
+          </div>
+          <div class="product-footer">
+            <span class="product-inquiry-note">Price on Inquiry</span>
+            <a href="https://wa.me/2348133134415?text=Hello%20Honey%20Bee%20Beauty%20Hive,%20I%20would%20like%20to%20inquire%20about%20pricing%20and%20order%20the%20Golden%20Honey%20%26%20Oat%20Cleanser." 
+               target="_blank" 
+               class="btn btn-honey btn-sm">
+              Order on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <span class="product-tag">Radiance</span>
+          <div class="product-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="28" height="28">
+              <circle cx="12" cy="12" r="5"/>
+              <line x1="12" y1="1" x2="12" y2="3"/>
+              <line x1="12" y1="21" x2="12" y2="23"/>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+              <line x1="1" y1="12" x2="3" y2="12"/>
+              <line x1="21" y1="12" x2="23" y2="12"/>
+            </svg>
+          </div>
+          <h3>Luminous Vitamin C &amp; Honey Serum</h3>
+          <p>
+            15% stabilized Vitamin C combined with raw honey nectar and ferulic acid. Fades dark spots, evens discoloration, and guards against sun stress.
+          </p>
+          <div class="product-specs">
+            <span><strong>Benefits:</strong> Brightening &amp; Spot correction</span>
+            <span><strong>Size:</strong> 30ml amber dropper</span>
+          </div>
+          <div class="product-footer">
+            <span class="product-inquiry-note">Price on Inquiry</span>
+            <a href="https://wa.me/2348133134415?text=Hello%20Honey%20Bee%20Beauty%20Hive,%20I%20would%20like%20to%20inquire%20about%20pricing%20and%20order%20the%20Luminous%20Vitamin%20C%20%26%20Honey%20Serum." 
+               target="_blank" 
+               class="btn btn-honey btn-sm">
+              Order on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <span class="product-tag">Nourishing</span>
+          <div class="product-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="28" height="28">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3>Botanical Honey Barrier Elixir Oil</h3>
+          <p>
+            A lightweight, non-comedogenic blend of squalane, rosehip, jojoba, and honey lipid complex. Seals in hydration and provides glass skin finish.
+          </p>
+          <div class="product-specs">
+            <span><strong>Benefits:</strong> Deep hydration &amp; Barrier lock</span>
+            <span><strong>Size:</strong> 30ml glass bottle</span>
+          </div>
+          <div class="product-footer">
+            <span class="product-inquiry-note">Price on Inquiry</span>
+            <a href="https://wa.me/2348133134415?text=Hello%20Honey%20Bee%20Beauty%20Hive,%20I%20would%20like%20to%20inquire%20about%20pricing%20and%20order%20the%20Botanical%20Honey%20Barrier%20Elixir%20Oil." 
+               target="_blank" 
+               class="btn btn-honey btn-sm">
+              Order on WhatsApp
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="text-align:center; margin-top:40px;">
+        <a href="products.html" class="btn btn-outline">View Complete Skincare Catalog &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Direct Booking Section -->
+  <section class="section" id="contact" style="background-color: var(--bg-surface-warm);">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Connect &amp; Reserve</span>
+        <h2>Visit Our Sanctuary or <em>Book Directly</em></h2>
+        <p>We are conveniently situated along Effurun Sapele Road in Warri, Delta State. Choose your preferred booking line below.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Contact Information & Quick Actions -->
+        <div class="contact-info-card">
+          <h3>Honey Bee Beauty Hive</h3>
+          <p style="margin-top:6px;">Spa, Facial Rituals &amp; Smile Aesthetics Studio</p>
+
+          <div class="contact-channels">
+
+            <!-- WhatsApp Dedicated Line -->
+            <div class="contact-channel-item">
+              <div class="channel-icon green">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.243 8.477 3.513 2.266 2.27 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.638 1.966 14.122.94 11.5.942 6.066.942 1.642 5.312 1.637 10.742c-.002 1.772.464 3.506 1.352 5.04l-.841 3.076 3.199-.824z"/>
+                </svg>
+              </div>
+              <div class="channel-details">
+                <strong>WhatsApp Booking Line</strong>
+                <a href="https://wa.me/2348133134415?text=Hello%20Honey%20Bee%20Beauty%20Hive,%20I%20would%20like%20to%20book%20an%20appointment%20for%20a%20facial/spa%20treatment." 
+                   target="_blank">
+                  08133134415 (Click to Chat)
+                </a>
+              </div>
+              <div class="channel-action">
+                <a href="https://wa.me/2348133134415?text=Hello%20Honey%20Bee%20Beauty%20Hive,%20I%20would%20like%20to%20book%20an%20appointment%20for%20a%20facial/spa%20treatment." 
+                   target="_blank" 
+                   class="btn btn-whatsapp btn-sm">
+                  Chat Now
+                </a>
+              </div>
+            </div>
+
+            <!-- Primary Phone Call Line -->
+            <div class="contact-channel-item">
+              <div class="channel-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </div>
+              <div class="channel-details">
+                <strong>Primary Phone Call Line</strong>
+                <a href="tel:+2348058987605">08058987605 (Direct Call)</a>
+              </div>
+              <div class="channel-action">
+                <a href="tel:+2348058987605" class="btn btn-outline btn-sm">Call</a>
+              </div>
+            </div>
+
+            <!-- Address Location Card -->
+            <div class="contact-channel-item">
+              <div class="channel-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div class="channel-details">
+                <strong>Exact Studio Address</strong>
+                <p>
+                  116 Effurun Sapele Road, Effurun (by GIG Motors, opposite Our Lady's School), Warri, Delta State.
+                </p>
+              </div>
+            </div>
+
+            <!-- Hours of Operation -->
+            <div class="contact-channel-item">
+              <div class="channel-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </div>
+              <div class="channel-details">
+                <strong>Opening Hours</strong>
+                <p>Monday – Saturday: 9:00 AM – 7:00 PM<br>Sunday: By Prior Appointment</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Interactive Direct WhatsApp Booking / Inquiry Form -->
+        <div class="booking-form-wrap">
+          <h3>Schedule Your Session</h3>
+          <p style="margin-top:4px;">Fill out your details below for immediate WhatsApp dispatch and instant confirmation.</p>
+
+          <form id="spa-booking-form" class="booking-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="client_name">Full Name *</label>
+                <input type="text" id="client_name" name="client_name" placeholder="e.g. Sandra Okoro" required />
+              </div>
+              <div class="form-group">
+                <label for="client_phone">Phone / WhatsApp *</label>
+                <input type="tel" id="client_phone" name="client_phone" placeholder="e.g. 08123456789" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="client_service">Select Desired Treatment *</label>
+              <select id="client_service" name="client_service" required>
+                <option value="">-- Choose Spa Service --</option>
+                <option value="Hydrating Honey Glow Facial">Hydrating Honey Glow Facial</option>
+                <option value="Men's Executive Skin & Beard Care">Men's Executive Skin &amp; Beard Care</option>
+                <option value="Laser Teeth Whitening">Laser Teeth Whitening</option>
+                <option value="Fashion Braces Installation">Fashion Braces Installation</option>
+                <option value="Deep Pore Cleansing & Detox Facial">Deep Pore Cleansing &amp; Detox Facial</option>
+                <option value="Anti-Aging Collagen Firming Therapy">Anti-Aging Collagen Firming Therapy</option>
+                <option value="Custom Skincare Consultation">Custom Skincare Consultation</option>
+                <option value="Home Service Booking">Home Service Booking</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="client_date">Preferred Date &amp; Time</label>
+              <input type="date" id="client_date" name="client_date" />
+            </div>
+
+            <div class="form-group">
+              <label for="client_notes">Skin Concerns or Special Requests</label>
+              <textarea id="client_notes" name="client_notes" rows="3" placeholder="Tell us about your skin (e.g. dryness, acne, hyperpigmentation, wedding event coming up...)"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-honey" style="width:100%; padding:15px;">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.243 8.477 3.513 2.266 2.27 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.638 1.966 14.122.94 11.5.942 6.066.942 1.642 5.312 1.637 10.742c-.002 1.772.464 3.506 1.352 5.04l-.841 3.076 3.199-.824z"/>
+              </svg>
+              Confirm Appointment on WhatsApp
+            </button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Location Map Showcase -->
+      <div class="location-showcase">
+        <div class="location-map-wrap">
+          <!-- Google Maps Embed for Effurun Sapele Road Warri -->
+          <iframe 
+            src="https://maps.google.com/maps?q=116%20Effurun%20Sapele%20Road,%20Effurun,%20Warri,%20Delta%20State&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+            title="Honey Bee Beauty Hive Location Map" 
+            loading="lazy" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="location-details-bar">
+          <div>
+            <strong style="color:var(--taupe-deep); font-size:16px;">Landmark Guide:</strong>
+            <p style="margin-top:3px; font-size:14px;">Directly by GIG Motors, opposite Our Lady's High School, Effurun Sapele Road, Warri, Delta State.</p>
+          </div>
+          <a href="https://maps.google.com/maps?q=116+Effurun+Sapele+Road+Effurun+Warri+Delta+State" 
+             target="_blank" 
+             class="btn btn-outline btn-sm">
+            Open in Google Maps &rarr;
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+
+      <!-- Column 1: Brand Summary -->
+      <div class="footer-col">
+        <div class="logo-lockup" style="margin-bottom:18px;">
+          <div class="logo-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2l7 4v8l-7 4-7-4V6z"/>
+              <circle cx="12" cy="10" r="2.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span class="l1" style="color:#FAF6EE;">Honey Bee</span>
+            <span class="l2">Beauty Hive &bull; Spa</span>
+          </div>
+        </div>
+        <p>
+          Effurun and Warri's premier facial spa and smile aesthetic sanctuary. Dedicated to skin barrier health, non-invasive facial therapy, clinical hygiene, and timeless beauty.
+        </p>
+      </div>
+
+      <!-- Column 2: Quick Links -->
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Our Studio</a></li>
+          <li><a href="services.html">Treatment Menu &amp; Pricing</a></li>
+          <li><a href="products.html">Curated Skincare</a></li>
+          <li><a href="contact.html">Contact &amp; Directions</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Signature Rituals -->
+      <div class="footer-col">
+        <h4>Treatments</h4>
+        <ul>
+          <li><a href="services.html">Hydrating Honey Glow</a></li>
+          <li><a href="services.html">Deep Pore Cleansing</a></li>
+          <li><a href="services.html">Men's Facial &amp; Beard Care</a></li>
+          <li><a href="services.html">Laser Teeth Whitening</a></li>
+          <li><a href="services.html">Fashion Braces</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Contact & Hours -->
+      <div class="footer-col">
+        <h4>Direct Contact</h4>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          <span>116 Effurun Sapele Road, Effurun (by GIGM, opp Our Lady's School), Warri, Delta State</span>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          <a href="tel:+2348058987605">Call: 08058987605</a>
+        </div>
+        <div class="footer-contact-item">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.243 8.477 3.513 2.266 2.27 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.638 1.966 14.122.94 11.5.942 6.066.942 1.642 5.312 1.637 10.742c-.002 1.772.464 3.506 1.352 5.04l-.841 3.076 3.199-.824z"/></svg>
+          <a href="https://wa.me/2348133134415" target="_blank">WhatsApp: 08133134415</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Copyright & Signature -->
+    <div class="container footer-bottom">
+      <span>&copy; 2026 Honey Bee Beauty Hive (Spa &amp; Facials). All rights reserved.</span>
+      <span>116 Effurun Sapele Road, Warri, Delta State</span>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Action Button (FAB) -->
+  <a href="https://wa.me/2348133134415?text=Hello%20Honey%20Bee%20Beauty%20Hive,%20I%20would%20like%20to%20book%20an%20appointment%20for%20a%20facial/spa%20treatment." 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     class="wa-fab" 
+     aria-label="Direct WhatsApp Booking with Honey Bee Beauty Hive">
+    <svg viewBox="0 0 24 24">
+      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.243 8.477 3.513 2.266 2.27 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.97C16.638 1.966 14.122.94 11.5.942 6.066.942 1.642 5.312 1.637 10.742c-.002 1.772.464 3.506 1.352 5.04l-.841 3.076 3.199-.824z"/>
+    </svg>
+    <span>Book on WhatsApp</span>
+  </a>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" aria-label="Scroll back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <line x1="12" y1="19" x2="12" y2="5"/>
+      <polyline points="5 12 12 5 19 12"/>
+    </svg>
+  </button>
+
+  <!-- Interactive Script -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
